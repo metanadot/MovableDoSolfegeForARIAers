@@ -1,0 +1,34 @@
+\input texinfo-ja.tex @c -*- coding: utf-8 -*-
+
+@documentencoding UTF-8
+@documentlanguage ja
+
+@settitle ARIAer のための移動ド ソルフェージュ
+@afourpaper
+
+@titlepage
+
+@title ARIAer のための移動ド ソルフェージュ
+@author めたな。
+
+ARIAer のための移動ドなソルフェージュです。
+
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@top ARIAer のための移動ド ソルフェージュ
+
+ARIAer のための移動ドなソルフェージュです。
+
+@end ifnottex
+
+@include intro.tely
+
+@include movable-do.tely
+
+@include melodia/melodia.tely
+
+@bye
